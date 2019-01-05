@@ -1,0 +1,22 @@
+{
+  "name": "homepoint",
+  "version": "1.0.0",
+  "description": "this is not the repository you're looking for",
+  "main": "app.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m3lty/homepoint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m3lty/homepoint/issues"
+  },
+  "homepage": "https://github.com/m3lty/homepoint#readme",
+  "devDependencies": {
+    "bower": "^1.8.4"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "homepoint",
+  "homepage": "https://github.com/m3lty/homepoint",
+  "authors": [
+    "m3lty <meltymiko@gmail.com>"
+  ],
+  "description": "silly flask app",
+  "main": "app.py",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "react": "^16.1.0",
+    "babel": "^5.8.38"
+  }
+}

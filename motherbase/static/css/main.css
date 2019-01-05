@@ -1,0 +1,51 @@
+body {
+    height:100%;
+    background-image: url("/static/img/bg.jpg");
+    padding-top: 5em;
+}
+.hidden {
+    display:none;
+}
+#assistant{
+    margin-top:2em;
+}
+.pane{
+    margin: 1em;
+    
+}
+#loginGroup{
+    margin-top: 20%;
+}
+#loveCol{
+    background: rgba(239,112,157, 0.4);
+    
+
+}
+#heartIcon{
+    color: #f5a9c4;
+    padding-top: .2em;
+}
+#weatherCol{
+    background: rgba(10,211,255,0.4);
+    
+}
+
+#statusCol{
+    background: rgba(3,71,72,0.4);
+    
+}
+#hddIcon{
+    margin-left:2em;    
+}
+li{
+    list-style-type: none;
+}
+#animePic{
+    max-width: 100%;
+}
+#networkCol{
+    background: rgba(255, 230, 109, 0.4);
+}
+#newsCol{
+    background: rgba(252, 119, 83, 0.4);
+}

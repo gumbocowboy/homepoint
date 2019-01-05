@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body {
+  height:100%;
+  background-image: url("img/bg.jpg");
+  padding-top: 5em;
+}
+.hidden {
+  display:none;
+}
+#assistant{
+  margin-top:2em;
+}
+.pane{
+  margin: 1em;
+
+}
+#loginGroup{
+  margin-top: 20%;
+}
+#loveCol{
+  background: rgba(239,112,157, 0.4);
+
+
+}
+#heartIcon{
+  color: #f5a9c4;
+  padding-top: .2em;
+}
+#weatherCol{
+  background: rgba(10,211,255,0.4);
+
+}
+
+
+#statusCol{
+  background: rgba(3,71,72,0.4);
+
+}
+#hddPane{
+  background: rgba(3,71,72,0.4);
+}
+#hddIcon{
+  margin-left:2em;
+}
+li{
+  list-style-type: none;
+}
+#animePic{
+  max-width: 100%;
+}
+#networkPane{
+  background: rgba(255, 230, 109, 0.4);
+}
+#newsCol{
+  background: rgba(252, 119, 83, 0.4);
+}
+.clock{
+  color:white;
+}
+#clockFace{
+  color: white;
+  font-size: 75px;
+}
+
+
+
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

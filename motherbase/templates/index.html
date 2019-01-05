@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>H O M E P O I N T | @motherbase</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="static/css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Load our React component. -->
+    
+</head>
+<body>
+    <div class="container">
+        <div id="boxthing">
+            <div class="row">
+                <div class="col text-center">
+                    H O M E P O I N T
+                </div>
+            </div>
+            <div class="row">
+                <div class="pane col-lg col-md-12 text-center" id="loveCol">
+                    <small>I've been in love for..</small>
+                    <div class="w-100"></div>
+                    <i class="fas fa-heart fa-7x" id="heartIcon"></i>
+                    <h3>{{ree}} days.</h3>
+                </div>
+                <div class="pane col-lg col-md-12 text-center" id="weatherCol">
+                    <h1>{{temp}}<span>&#176;</span> </h1>
+                    
+                    
+                    <span class="hidden" id="CloudsIcon"><i class="fas fa-cloud fa-7x"></i></span>
+                    <span class="hidden" id="ClearIcon"><i class="fas fa-sun fa-7x"></i></span>
+                    <span class="hidden" id="RainIcon"><i class="fas fa-cloud-rain-7x"></i></span>
+
+                    <h2>{{status}}</h2>
+                    <small>At home</small>
+                </div>
+                <div class="pane col-lg col-md-12 text-center" id="statusCol">
+                    <h4>MOTHERBASE//STATUS</h4>
+                    <i class="fas fa-hdd fa-7x"></i>
+                    <h4>{{grandFree}} GB free</h4>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="pane col-lg col-md-12 text-center" id="networkCol">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptate cupiditate quo quam nesciunt. Unde repellendus provident doloremque tenetur obcaecati maiores minima quos, pariatur omnis eos, praesentium natus exercitationem eveniet?
+                </div>
+                <div class="pane col-lg col-md-12 text-center" id="animeCol">
+                    <img class="img-responsive" id="animePic" src="../static/img/aoi.jpg" alt="Aoi">
+                </div>
+                <div class="pane col-lg col-md-12 text-center" id="newsCol">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, illum. Numquam explicabo voluptatem esse illum atque quas itaque dignissimos doloribus! Iusto explicabo nobis aliquam vero excepturi temporibus nostrum ducimus dicta.
+                </div>
+            </div>
+            <div id="like_button_container">Foo</div>
+            </div>
+        </div>
+        <div id="padder">
+
+        </div>
+    </div>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="../static/js/main.js"></script>
+    <script src="{{ url_for('static', filename='../static/bower_components/react/react.development.js') }}"></script>
+    <script src="{{ url_for('static', filename='../static/bower_components/react/react-dom.development.js') }}"></script>
+    <script type="text/jsx" src="../static/js/like_button.js"></script>
+    
+    <script>
+        playOnStart("{{status}}");
+    </script>
+</body>
+</html>
