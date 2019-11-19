@@ -8,4 +8,4 @@ I'm using this opportunity to learn a few new technologies, so everything is slo
 
 Flask back end, and a react front end. We'll see how it goes.
 
-*Any use of the word "loli" within documentation or code does **not** refer to pornographic material. That is simply the name of my Raspberry Pi*
+
