@@ -2,7 +2,7 @@ import random
 from flask import Flask, jsonify
 from wtforms import Form, TextField, TextAreaField, validators, StringField, SubmitField
 from flask_cors import CORS, cross_origin
-from days import ree
+from days import totalDays
 import weather
 import hdd
 import dirlist
@@ -23,7 +23,7 @@ CORS(app)
 #Requrest for LOVE widget
 def api_LOVE():
     print("Love Pinged")
-    days =  {'days': ree}
+    days =  {'days': totalDays}
     return jsonify(days)
 
 @app.route('/weather')
@@ -40,13 +40,13 @@ def api_WEATHER():
 #This is a test
 def api_DIR():
     print ("DIR pinged")
-    dirnum = {'foo': dirlist.getmovies() }
+    dirnum = {'movies': dirlist.getmovies(), 'anime':dirlist.getAnime() }
     return jsonify(dirnum)
 @app.route('/network')
 #Request for NETWORK widget
 def api_NETWORK():
     print("NETWORK pinged.")
-    devices = {'devices': network.getDevices()}
+    devices = {'devices': network.getDevices(), 'macs': network.getMacs(), 'matched': network.knownDevices()}
     return jsonify(devices)
 if __name__ == '__main__':
     print ("Server should be running...")

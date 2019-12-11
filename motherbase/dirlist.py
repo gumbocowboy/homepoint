@@ -4,15 +4,23 @@
 from __future__ import print_function
 import os
 import json
-from config import moviePath
-
+import config
 def getmovies():
-    path = moviePath
+    path = config.moviePath
     files = os.listdir(path)
      
     moviecount = 0
     moviecount = 0
     for name in files:
         moviecount = moviecount + 1
-     
+    
     return moviecount
+
+def getAnime():
+    path = config.animePath
+    files = os.listdir(path)
+
+    animecount = 0
+    for name in files:
+        animecount = animecount + 1
+    return animecount

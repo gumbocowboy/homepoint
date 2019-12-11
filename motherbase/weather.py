@@ -10,4 +10,4 @@ def get_all():
     getTemp = w.get_temperature('fahrenheit')
     temp = round(getTemp["temp"])
     status = w.get_status()
-    return temp, status;
+    return temp, status
