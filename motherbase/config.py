@@ -4,16 +4,20 @@ class KnownDevice:
     mac = ""
 
 # Weather API Key
-owmApiKey = 'Key'
+owmApiKey = '7793815c309deae4ea47e3136141cf8a'
 
 #Paths for HDD Pane
-moviePath = "/path/to/whatever"
-animePath = "/foo/bar"
+moviePath = "/media/meido/Magi/Movies"
+animePath = "/media/meido/Magi/Animu"
 #Creating the array for Known Devices
 knownDevices = []
 
-#Example Known Device declaration
-exampleDevice = KnownDevice()
-exampleDevice.name = "Example Device"
-exampleDevice.mac = "11:11:11:11:11:11" #Devices MAC Address
+adamPhoneMac = KnownDevice()
+adamPhoneMac.name = "Adam's Phone"
+adamPhoneMac.mac = "B4:F7:A1:E8:BB:4E"
+knownDevices.append(adamPhoneMac)
 
+switchMac = KnownDevice()
+switchMac.name = "Switch"
+switchMac.mac =  "98:B6:E9:45:51:68"  
+knownDevices.append(switchMac)
