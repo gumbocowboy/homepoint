@@ -1,5 +1,6 @@
-# RPi Dashboard
-### A personal project because I have too much time and a spare Raspberry Pi.
+# Homepoint
+##### A personal homepage built to be displayed on a spare monitor.
+
 
 I wanted to do a small-ish project where I made a personal home dashboard that could be displayed using a
 Raspberry Pi.
