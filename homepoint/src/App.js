@@ -11,7 +11,7 @@ import './panes/devices'
 class App extends Component {
   render() {
     return (
-      <div id="Foo">Fooobar</div>
+      <div id="Foo"></div>
     );
   }
 }

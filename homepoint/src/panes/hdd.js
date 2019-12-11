@@ -4,7 +4,7 @@ import { deflateSync } from 'zlib';
 
 const API = "http://192.168.10.104:5000/dirlist"
 function fetchJSON(url){
-    console.log("Fetching Weather from homepoint");
+    console.log("Fetching Hard Drive Info from homepoint");
     return fetch(url)
 }
 
@@ -19,9 +19,11 @@ function getDir(){
         const element =( 
             
             <div>
-                <h4>MOTHERBASE//STATUS</h4>
+                <h4>MOTHERBASE || STATUS</h4>
                 <i className="fas fa-hdd fa-7x"></i>
-                <p>{parsed.foo}</p>
+                <p>{parsed.movies} <strong>Movies</strong></p>
+                <p>{parsed.anime} <strong>Anime Series</strong></p>
+
             </div>
         );
         ReactDOM.render(element, document.getElementById('hddPane'));

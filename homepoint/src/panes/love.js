@@ -17,7 +17,7 @@ days.then(response => {
     let parsed = JSON.parse(returned);
     const element =(
       <div>
-        <small>I've been in love for..</small>
+        <h3>Married In:</h3>
         <div class="w-100"></div>
         <i class="fas fa-heart fa-7x" id="heartIcon"></i>
         <h2>{parsed.days} days! </h2>
