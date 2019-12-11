@@ -1,22 +1,19 @@
+# Used for defining a trusted device.
 class KnownDevice:
     name = ""
     mac = ""
 
+# Weather API Key
+owmApiKey = 'Key'
 
-owmApiKey = '7793815c309deae4ea47e3136141cf8a'
-hdd1 = "/media/meido/6B3CBD946167CA06"
-hdd2 = "/media/meido/8E5E03735E0352FF"
-hdd3 = "/media/meido/7F0371732772D076"
-moviePath = "/media/meido/Magi/Movies"
-animePath = "/media/meido/Magi/Animu"
+#Paths for HDD Pane
+moviePath = "/path/to/whatever"
+animePath = "/foo/bar"
+#Creating the array for Known Devices
 knownDevices = []
 
-adamPhoneMac = KnownDevice()
-adamPhoneMac.name = "Adam's Phone"
-adamPhoneMac.mac = "B4:F7:A1:E8:BB:4E"
-knownDevices.append(adamPhoneMac)
+#Example Known Device declaration
+exampleDevice = KnownDevice()
+exampleDevice.name = "Example Device"
+exampleDevice.mac = "11:11:11:11:11:11" #Devices MAC Address
 
-switchMac = KnownDevice()
-switchMac.name = "Switch"
-switchMac.mac =  "98:B6:E9:45:51:68"  
-knownDevices.append(switchMac)
