@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+var config = require('../config');
 
-const API = "http://192.168.10.104:5000/network"
+const API = config.networkAPI;
 function fetchJSON(url){
   console.log("Fetching Network");
   return fetch(url)

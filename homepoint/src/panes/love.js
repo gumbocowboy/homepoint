@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+var config = require('../config');
 
-const API = "http://192.168.10.104:5000/love";
+const API = config.loveAPI;
 function fetchJSON(url) {
   console.log("fetching python from localhost");
   return fetch(url)

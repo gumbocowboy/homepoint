@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+var config = require('../config');
 
-const API = "http://192.168.10.104:5000/weather"
+const API = config.weatherAPI;
 function fetchJSON(url){
     console.log("Fetching Weather from homepoint");
     return fetch(url)

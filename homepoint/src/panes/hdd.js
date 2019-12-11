@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { deflateSync } from 'zlib';
 
-const API = "http://192.168.10.104:5000/dirlist"
+var config = require('../config');
+
+const API = config.dirlistAPI;
 function fetchJSON(url){
     console.log("Fetching Hard Drive Info from homepoint");
     return fetch(url)
