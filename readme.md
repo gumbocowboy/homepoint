@@ -1,6 +1,8 @@
 # Homepoint
 ##### A personal homepage built to be displayed on a spare monitor.
 
+![alt text](https://i.imgur.com/xKQvOJn.png "Homepoint Screenshot")
+
 *Homepoint is a personal project I'm using to learn new technlogies, so it will be evolving and breaking for a while.*
 
 The front-end (`homepoint`) is being built using React, while the back-end api (`motherbase`) is using Flask.
