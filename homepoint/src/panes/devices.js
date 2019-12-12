@@ -53,10 +53,9 @@ function getDevices(){
     const element = (
       <div className="pane col-lg col-md-12 text-center" id="networkCol">
         <h4>Devices on Network</h4>
-        <p>{parsed.devices}</p>
-        <p>{macs[1]}</p>
-        <p><strong>{matched.length} Known Devices</strong></p>
-        {knownHeader}
+        <i className = "fas fa-network-wired fa-6x"></i>
+        <p className="textPadding"><strong>{parsed.devices}</strong> on Network.</p>
+
 
       </div>
       );

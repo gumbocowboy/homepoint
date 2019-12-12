@@ -30,3 +30,8 @@
     transform: rotate(360deg);
   }
 }
+
+.textPadding {
+  padding-top: 2em;
+  font-size: large;
+}
